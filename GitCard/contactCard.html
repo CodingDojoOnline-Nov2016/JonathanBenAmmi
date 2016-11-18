@@ -3,17 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>contact card</title>
-        <script type="text/javascript" src="../supporting_files/jquery-2.2.3.js"></script>
+        <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <form action="" method="post">
-            <input type="text" id="first-name" name="first_name" value="" placeholder="First Name">
-            <input type="text" id="last-name" name="last_name" value="" placeholder="Last Name">
-            <textarea id="description" name="description" rows="8" cols="40" placeholder="Enter a description about yourself here"></textarea>
-            <input type="submit" value="Add user">
-        </form>
+        <div class="forms">
+            <form action="" method="post">
+                <input type="text" id="first-name" name="first_name" value="" placeholder="First Name">
+                <input type="text" id="last-name" name="last_name" value="" placeholder="Last Name">
+                <textarea id="description" name="description" rows="8" cols="40" placeholder="Enter a description about yourself here"></textarea>
+                <input type="submit" name="submit" value="Add user">
+            </form>
+            <form  action="" method="post">
+                <input type="text" id="user-name" name="userName" value="" placeholder="GitHub User Name">
+                <input type="submit" name="submit" value="Git user">
+            </form>
+        </div>
         <div class="cards">
 
         </div>
